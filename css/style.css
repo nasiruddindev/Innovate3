@@ -38,6 +38,13 @@ p {
   font-size: 18px;
   color: #29313d;
   font-weight: 400;
+  line-height: 200%;
+  font-family: 'Nunito', sans-serif;
+}
+h6{
+  font-size: 24px;
+  font-weight: 500;
+  color: #7968ef;
   font-family: 'Nunito', sans-serif;
 }
 img {
@@ -83,9 +90,9 @@ nav ul li a{
   padding-bottom: 48px;
   margin: 0 auto;
   text-align: center;
-  line-height: 200%;
 }
 .banner-input {
+  margin: 0 auto;
   width: 40%;
   display: flex;
   justify-content: center;
@@ -131,13 +138,8 @@ nav ul li a{
 }
 .service h6 {
   text-align: center;
-  font-size: 24px;
-  font-weight: 500;
-  color: #7968ef;
-  font-family: 'Nunito', sans-serif;
 }
 .service .left p {
-  color: #29313d;
   padding-bottom: 80px;
 }
 .ser-content {
@@ -175,16 +177,11 @@ nav ul li a{
 }
 .traffic h6{
   padding-top: 10px;
-  font-size: 24px;
-  font-weight: 500;
-  color: #7968ef;
-  font-family: 'Nunito', sans-serif;
 }
 .traffic p{
   padding-top: 24px;
   padding-bottom: 40px;
   width: 90%;
-  line-height: 200%;
 }
 .traffic-box{
   display: flex;
@@ -231,3 +228,141 @@ nav ul li a{
   border-radius: 50%;
 }
 /* Traffic part end */
+
+
+/* Help part start */
+.help{
+  padding: 120px 0;
+  background-color: #fff;
+}
+.help h6{
+  text-align: center;
+}
+.help h2 {
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 60px;
+}
+.help .card{
+  background-color: #F8A64C;
+  border: none;
+}
+.help .card .img{
+  height: 65px;
+  width: 65px;
+  margin: 35px auto;
+}
+.help .card h5{
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+  padding-bottom: 40px;
+}
+.help .left{
+  padding-top: 100px;
+  align-items: center;
+}
+.help .left .img{
+  width: 340px;
+  height: 340px;
+}
+.help h3{
+  font-size: 36px;
+  font-weight: 500;
+  color: #29313D;
+}
+.help p{
+  font-weight: 400;
+  padding-top: 24px;
+  padding-bottom: 48px;
+  font-family: 'Nunito', sans-serif;
+}
+
+/* Help part end */
+
+
+/* Work part start */
+.work{
+  padding: 120px 0;
+  background-color: #fff;
+}
+.work .w-heading{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+}
+.work .card{
+  width: 100%;
+  height: 300px;
+  border-radius: 20px;
+  background-color: #C4C4C4;
+  border: none;
+}
+.work h3{
+  font-size: 28px;
+  font-weight: 500;
+  padding-bottom: 14px;
+  padding-top: 28px;
+}
+/* Work part end */
+
+
+/* SEO part start */
+.main{
+  background-image: url(../images/seo.png);
+  background-size: cover;
+  border-radius: 20px;
+  background-image: linear-gradient(#082859,#07234D,#04152E,#000000);
+}
+.seo .content{
+  padding: 120px ;
+}
+.seo .content h2{
+  color: #fff;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.seo .content p{
+  color: #fff;
+  text-align: center;
+}
+.seo .input-box{
+  display: flex;
+  width: 50%;
+  margin: 28px auto 0;
+  border-radius: 20px;
+  overflow: hidden;
+
+}
+.seo input{
+  font-size: 18px;
+  padding: 15px 20px;
+  flex: 1;
+  border: none;
+}
+.seo button{
+  padding: 0 10px;
+  font-size: 18px;
+  border: none;
+  background-color: #6A55EA;
+}
+/* SEO part end */
+
+
+/* Fotter part start */
+.fotter{
+  padding: 100px 0;
+  background-color: #fff;
+}
+.fotter .img{
+  width: 135px;
+  height: 75px;
+}
+.fotter .left p{
+  width: 80%;
+}
+.fotter  h4{
+  padding-bottom: 50px;
+}
+/* Fotter part end */

@@ -13,7 +13,9 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/all.min.css">
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css">
   </head>
   <body>
     <!-- Header and Navbar part start -->
@@ -22,15 +24,17 @@
       <div class="container">
         <nav>
           <a href="#"><img src="./images/Logo.png" alt="" /></a>
-          <ul>
+          <ul class="nav-menu">
+            <button id="menu-close-button" class="fas fa-times"></button>
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Service</a></li>
             <li><a href="#">Portfolio</a></li>
             <li><a href="#">Price</a></li>
             <li><a href="#">Blog</a></li>
+            <button class="btn">Contact Us</button>
           </ul>
-          <button class="btn">Contact Us</button>
+          <button id="menu-open-button" class="fas fa-bars"></button>
         </nav>
         <div class="banner">
           <div class="banner-details">
@@ -247,5 +251,6 @@
       </div>
      </section>
     <!-- Fotter part end -->
+     <script src="./js/first.js"></script>
   </body>
 </html>

@@ -65,13 +65,19 @@ nav {
 }
 nav ul {
   display: flex;
-  gap: 74px;
+  gap: 40px;
   align-items: center;
   margin: 0;
   padding: 0;
 }
 nav ul li a{
   color: #fff;
+  padding: 10px 25px;
+  border-radius: 20px;
+  transition: .3s;
+}
+nav ul li a:hover{
+  background-color: #6A55EA;
 }
 .banner h1 {
   font-size: 64px;
@@ -109,6 +115,7 @@ nav ul li a{
 }
 .banner-input button {
   border: none;
+  font-size: 16px;
   padding: 0 25px;
   color: #fff;
   background-color: #6a55ea;

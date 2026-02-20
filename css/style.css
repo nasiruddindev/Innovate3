@@ -176,14 +176,14 @@ nav ul li a:hover{
 
 /* Traffic part start */
 .traffic{
-  padding: 100px;
+  padding: 100px 0;
   background-color: #fff;
 }
 .traffic .row{
   align-items: center;
 }
 .traffic h6{
-  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .traffic p{
   padding-top: 24px;
@@ -264,6 +264,15 @@ nav ul li a:hover{
   font-weight: 500;
   text-align: center;
   padding-bottom: 40px;
+}
+.help .row .sec{
+  background-color: #F0EDFF;
+}
+.help .row .third{
+  background-color: #E8FCF2;
+}
+.help .row .four{
+  background-color: #FEF6EC;
 }
 .help .left{
   padding-top: 100px;

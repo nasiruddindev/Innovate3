@@ -348,7 +348,7 @@
   .help h6 {
     margin-bottom: 10px;
   }
-  .help .row .sec,
+  .help .row .first .sec,
   .third,
   .four {
     margin-top: 30px;
@@ -412,6 +412,447 @@
   .fotter p {
     text-align: center;
     padding-bottom: 10px;
+  }
+  /* fotter part end */
+}
+@media (min-width: 768px) and (max-width: 991.99px) {
+  p {
+    font-size: 15px;
+    line-height: 150%;
+  }
+  h6 {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 35px;
+    line-height: 130%;
+  }
+  .btn {
+    font-size: 16px;
+    padding: 12px 20px;
+  }
+  /* Navbar part start */
+  .nav-menu {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    gap: 30px;
+    background-color: #fff;
+    transition: 0.3s;
+  }
+  .nav-menu li a {
+    color: #000;
+    display: block;
+  }
+  #menu-open-button,
+  #menu-close-button {
+    border: none;
+    background-color: transparent;
+  }
+  #menu-open-button {
+    color: #fff;
+  }
+  body.show-mobile-menu .nav-menu {
+    left: 0;
+  }
+  /* Navbar part end */
+
+  /* Banner part start */
+  .banner h1 {
+    font-size: 45px;
+    font-weight: 600;
+    width: 72%;
+    padding-top: 50px;
+  }
+  .banner p {
+    width: 75%;
+    padding-bottom: 38px;
+    padding-top: 40px;
+    color: #000;
+  }
+  .banner-input {
+    width: 65%;
+    margin-top: 20px;
+  }
+  .banner-input input {
+    font-size: 10px;
+    padding: 15px 10px;
+  }
+  .banner-input button {
+    font-size: 10px;
+  }
+  .head-icon {
+    padding-top: 50px;
+  }
+  /* Banner part end */
+
+  /* Service part start */
+  .service {
+    padding: 60px 0;
+  }
+  .service h6 {
+	padding-bottom: 10px;
+}
+  .service h2 {
+    width: 65%;
+    padding-bottom: 30px;
+  }
+  .service img{
+    width: 90%;
+  }
+  .service .left p {
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+}
+  .ser-content {
+    padding: 10px;
+  }
+  .ser-content h3 {
+    font-size: 20px;
+  }
+  .ser-content p {
+    padding-top: 5px;
+    width: auto;
+  }
+  .ser-content .img {
+    width: 120px;
+    height: 60px;
+    margin-right: 20px;
+  }
+  /* Service part end */
+
+  /* Traffic part start */
+  .traffic {
+    padding: 50px 0;
+  }
+  .traffic h6 {
+	text-align: center;
+}
+  .traffic h2 {
+	text-align: center;
+}
+.traffic p {
+	width: 100%;
+	text-align: center;
+	margin: 0 auto;
+}
+  .traffic-box .card {
+    width: 80px;
+    height: 80px;
+  }
+  .traffic-box .card::after {
+    inset: 5px;
+  }
+  .traffic-box {
+    margin-bottom: 50px;
+    width: 95%;
+    margin: 0 auto 50px;
+  }
+  /* Traffic part end */
+
+  /* Help part start */
+  .help {
+    padding: 50px 0;
+  }
+  .help h6 {
+    margin-bottom: 10px;
+  }
+  .help .row .first .sec,
+  .third,
+  .four {
+    margin-top: 30px;
+  }
+  .help .left .img {
+	margin: 0 auto 50px;
+}
+  .help img {
+    width: 100%;
+  }
+  .help h3 {
+	font-size: 34px;
+}
+  /* Help part end */
+
+  /* Work part start */
+  .work {
+    padding: 60px 0;
+  }
+  .work .card {
+	height: 250px;
+}
+
+  .work h6 {
+    padding-bottom: 10px;
+  }
+  .work p {
+    padding-bottom: 50px;
+  }
+  .work h3 {
+    font-size: 21px;
+    padding-bottom: 15px;
+    padding-top: 16px;
+  }
+  /* Work part end */
+
+  /* SEO part start */
+  .seo .content {
+    padding: 25px;
+  }
+  .seo .input-box {
+    width: 50%;
+  }
+  .seo input {
+    font-size: 10px;
+    padding: 13px 6px;
+  }
+  .seo button {
+    padding: 0px 10px;
+    font-size: 10px;
+  }
+  /* SEO part end */
+
+  /* fotter part start */
+  .fotter .left p {
+    width: 65%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .fotter .img {
+    margin: 0 auto 50px;
+  }
+  .fotter h4 {
+    padding-bottom: 20px;
+    padding-top: 50px;
+    text-align: center;
+  }
+  .fotter p {
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  /* fotter part end */
+}
+@media (min-width: 992px) and (max-width: 1199.99px) {
+  /* p {
+    font-size: 15px;
+    line-height: 150%;
+  }
+  h6 {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 35px;
+    line-height: 130%;
+  } */
+  /* .btn {
+    font-size: 16px;
+    padding: 12px 20px;
+  } */
+  /* Navbar part start */
+  .nav-menu {
+    /* display: block;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px; */
+    gap: 10px;
+    /* background-color: #fff;
+    transition: 0.3s; */
+  }
+  /* .nav-menu li a {
+    color: #000;
+    display: block;
+  }
+  #menu-open-button,
+  #menu-close-button {
+    border: none;
+    background-color: transparent;
+  }
+  #menu-open-button {
+    color: #fff;
+  }
+  body.show-mobile-menu .nav-menu {
+    left: 0;
+  } */
+  /* Navbar part end */
+
+  /* Banner part start */
+  .banner h1 {
+    font-size: 45px;
+    font-weight: 600;
+    width: 72%;
+    padding-top: 50px;
+  }
+  .banner p {
+    width: 75%;
+    padding-bottom: 38px;
+    padding-top: 40px;
+    color: #000;
+  }
+  .banner-input {
+    width: 65%;
+    margin-top: 20px;
+  }
+  .banner-input input {
+    font-size: 10px;
+    padding: 15px 10px;
+  }
+  .banner-input button {
+    font-size: 10px;
+  }
+  .head-icon {
+    padding-top: 150px;
+  }
+  /* Banner part end */
+
+  /* Service part start */
+  .service {
+    padding: 60px 0;
+  }
+  .service h6 {
+	padding-bottom: 10px;
+}
+  .service h2 {
+    width: 65%;
+    padding-bottom: 30px;
+  }
+  .service img{
+    width: 90%;
+  }
+  .service .left p {
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+}
+  .ser-content {
+    padding: 10px;
+  }
+  .ser-content h3 {
+    font-size: 20px;
+  }
+  .ser-content p {
+    padding-top: 5px;
+    width: auto;
+  }
+  .ser-content .img {
+    width: 120px;
+    height: 60px;
+    margin-right: 20px;
+  }
+  /* Service part end */
+
+  /* Traffic part start */
+  .traffic {
+    padding: 50px 0;
+  }
+  .traffic h6 {
+	text-align: center;
+}
+  .traffic h2 {
+	text-align: center;
+}
+.traffic p {
+	width: 100%;
+	margin: 0 auto;
+}
+  .traffic-box .card {
+    width: 80px;
+    height: 80px;
+  }
+  .traffic-box .card::after {
+    inset: 5px;
+  }
+  .traffic-box {
+    margin-bottom: 50px;
+    width: 95%;
+    margin: 0 auto 50px;
+  }
+  /* Traffic part end */
+
+  /* Help part start */
+  .help {
+    padding: 50px 0;
+  }
+  .help h6 {
+    margin-bottom: 10px;
+  }
+  .help .left .img {
+	margin: 0 auto 50px;
+}
+  .help img {
+    width: 100%;
+  }
+  .help h3 {
+	font-size: 34px;
+}
+  /* Help part end */
+
+  /* Work part start */
+  .work {
+    padding: 60px 0;
+  }
+  .work .card {
+	height: 300px;
+}
+
+  .work h6 {
+    padding-bottom: 10px;
+  }
+  .work p {
+    padding-bottom: 50px;
+  }
+  .work h3 {
+    font-size: 28px;
+    padding-bottom: 15px;
+    padding-top: 16px;
+  }
+  /* Work part end */
+
+  /* SEO part start */
+  .seo .content {
+    padding: 70px;
+  }
+  .seo .input-box {
+    width: 65%;
+  }
+  .seo input {
+    font-size: 10px;
+    padding: 13px 6px;
+  }
+  .seo button {
+    padding: 0px 10px;
+    font-size: 10px;
+  }
+  /* SEO part end */
+
+  /* fotter part start */
+  .fotter .left p {
+    width: 95%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .fotter .img {
+    margin: 0 auto 25px;
+  }
+  .fotter h4 {
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  .fotter p {
+    text-align: center;
+    padding-bottom: 5px;
   }
   /* fotter part end */
 }
